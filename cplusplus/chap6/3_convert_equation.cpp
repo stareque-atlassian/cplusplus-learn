@@ -12,3 +12,13 @@ int main() {
     std::cout << "Hello, World!\n";
     return 0;
 }
+
+
+// check example 6-3 for the exact fourmate to translate
+double Fun2(double a, double b, double c)
+{
+    double tmp = b*b - 4*a*c;
+    return (-b + sqrt(tmp))/(2 * a);
+}
+
+

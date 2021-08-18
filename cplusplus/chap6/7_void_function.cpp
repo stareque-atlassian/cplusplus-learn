@@ -12,3 +12,14 @@ int main() {
     std::cout << "Hello, World!\n";
     return 0;
 }
+
+void printStars(int n, int r)
+{
+   for (int count = 1; count <= n; count++)
+   {
+       cout << "* ";
+       if(count % r == 0)
+           cout << endl;
+   }
+    
+}

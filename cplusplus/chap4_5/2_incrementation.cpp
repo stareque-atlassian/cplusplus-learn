@@ -6,9 +6,13 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int i = 10;
+    int x = ++i;
+    int y = i++;
+    cout << i << ", " << x << ", " << y;
+    
     return 0;
 }

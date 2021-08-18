@@ -9,6 +9,8 @@
 
 int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    int List1[5]={12,32,16,23,45};
+    int List1[5]={12,32,16,23,45,25};
+    int List2[] = {12, 32, 16, 23, 45, 25}; // array size = 6
     return 0;
 }

@@ -9,6 +9,7 @@
 
 int main() {
     // insert code here...
+    // go to chap 6, "global variables"
     std::cout << "Hello, World!\n";
     return 0;
 }

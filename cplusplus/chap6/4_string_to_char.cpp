@@ -12,3 +12,12 @@ int main() {
     std::cout << "Hello, World!\n";
     return 0;
 }
+
+
+
+char Fun(string str, int x)
+{
+    if( x >= 0 && x <= str.length())
+        return str[x];
+    return '\0';
+}

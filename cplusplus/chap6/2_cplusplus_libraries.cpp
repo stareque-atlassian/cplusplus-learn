@@ -6,9 +6,10 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    cout<<abs(-7);
+    //Check example EXAMPLE 6-1
     return 0;
 }

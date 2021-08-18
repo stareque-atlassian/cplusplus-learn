@@ -8,7 +8,7 @@
 #include <iostream>
 
 int main() {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    int num = rand() % 51 + 50;
+    int num = rand() % 101;
     return 0;
 }
