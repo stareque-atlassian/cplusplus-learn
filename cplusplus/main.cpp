@@ -8,7 +8,9 @@
 #include <iostream>
 using namespace std;
 
-void SwapValueTypes(int a, int b)
+
+
+void SwapReferenceTypes(int &a, int &b)
 {
     //a: [6]
     //b: [13]
@@ -37,15 +39,17 @@ int main() {
     //number1: [6]
     //number2: [13]
     
-    SwapValueTypes(number1,number2);
+    //the values of the variables dont just get copied into the fucntion
+    // the box itself gets transfered into the function
+    // the memeory adderess that holds "number1" which has the value 6. the memory address value is sent to the function.
+    // the pointer  pointing to the number1 is sent
+    // number1 itself is sent into the function
+    SwapReferenceTypes(number1, number2);
     
-    //number1: [6]
-    //number2: [13]
+    //number1: [13]
+    //number2: [6]
     
     
     cout << "After calling the function Swap"<<endl;
     cout << "number1 = " << number1 << ", number2 = " << number2<< endl;
 }
-
-
-
