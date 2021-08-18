@@ -6,18 +6,19 @@
 //
 
 #include <iostream>
+#include <cmath>
 
+using namespace std;
 
-double larger(double, double);
+double larger(double x, double y);
 
 int main() {
     double one = 13.00;
-    cout<< larger(one, 29) << endl;
+    cout << larger(one, 29) << endl;
 }
 
 double larger(double x, double y) {
     if (x >= y)
         return x;
     return y;
-    
 }
