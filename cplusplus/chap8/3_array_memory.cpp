@@ -9,6 +9,6 @@
 
 int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    //Look at section in Chap 8
     return 0;
 }
